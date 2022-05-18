@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Лого ТНС.jpg" />
+    <None Remove="На авторизацию_Обновление кода.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Лого ТНС.jpg" />
+    <Resource Include="На авторизацию_Обновление кода.jpeg" />
+  </ItemGroup>
+
+</Project>
